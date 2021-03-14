@@ -36,3 +36,9 @@ data from this url:
 https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json
 
 2. Save the array of data that comes back to state.
+
+ # step 5
+ In the Photos component, get the allPhotos array from context
+ map over it, creating an instance of <Image /> component
+<Image key={???} img={<full image object here>} 
+className={getClass(<index of image>)} />

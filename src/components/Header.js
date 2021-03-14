@@ -5,7 +5,6 @@ import "../styles.css";
 function Header() {
   return (
     <header>
-      //step 1
       <Link to="/">
         <h2>Pixel Lite</h2>
       </Link>

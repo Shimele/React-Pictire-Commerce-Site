@@ -13,7 +13,7 @@ function ContextProvider(props) {
       .then((response) => response.json())
       .then((data) => setAllPhotos(data));
   }, []);
-
+  console.log(allPhotos);
   return (
     <Context.Provider value={{ allPhotos }}>{props.children}</Context.Provider>
   );
