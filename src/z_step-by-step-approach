@@ -1,4 +1,4 @@
-# first steps
+# step 1
 Set up React Router for our app.
 
 1. Click on the words "Pic Some" in the header to go to the "/" route,
@@ -7,7 +7,7 @@ Set up React Router for our app.
 2. Click on the shopping cart icon in the header to go to the "/cart" 
 route, which should display the Cart component (found in the pages folder)
 
-# second steps
+# step 2
 Set up the Context for our app.
 
 1. In a new file, create a new context with React
@@ -19,3 +19,20 @@ value prop
 (so we can pass it to the useContext hook eventually)
 5. Set up index.js to use the custom context Provider created.
  (wrap it as a parent of the Router component)
+
+ # step 3
+ Add state to our context and pass it through the Provider
+
+1. Add state to hold the array of all photos our app gets from the API
+2. Pass the array of all photos through the value of the provider so
+ it's available anywhere the app accesses the context
+
+ # step 4
+ Get the JSON data with the photos information from the API and 
+ save it to context state
+
+1. As soon as the ContextProvider component renders, get the JSON 
+data from this url: 
+https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json
+
+2. Save the array of data that comes back to state.
