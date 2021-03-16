@@ -8,15 +8,14 @@ Gives you the ability to favorite or chose images, add them to your cart then pl
 
 https://shimele.github.io/React-Pic-Commerce-Site/
 
+# Aknowledgement
+
+
 # Image attributions:
 
 https://picsum.photos/
 
 https://unsplash.com/
-
-# GitHub repo of images and JSON file
-
-https://github.com/bobziroll/scrimba-react-bootcamp-images
 
 # Icon library
 
