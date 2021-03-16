@@ -6,12 +6,24 @@ function Image({ className, img }) {
   const [hovered, setHovered] = useState(false);
   const { toggleFavorite } = useContext(Context);
 
-  const heartIconDiaplay = hovered && (
-    <i
-      className="ri-heart-line favorite"
-      onClick={() => toggleFavorite(img.id)}
-    ></i>
-  );
+  function heartIconDiaplay() {
+    if (img.isFavorite) {
+      return (
+        <i
+          className="ri-heart-fill favorite"
+          onClick={() => toggleFavorite(img.id)}
+        ></i>
+      );
+    } else if (hovered) {
+      return (
+        <i
+          className="ri-heart-line favorite"
+          onClick={() => toggleFavorite(img.id)}
+        ></i>
+      );
+    }
+  }
+
   const cartIconDisplay = hovered && (
     <i className="ri-add-circle-line cart"></i>
   );
@@ -22,7 +34,7 @@ function Image({ className, img }) {
       onMouseLeave={() => setHovered(false)}
     >
       <img src={img.url} className="image-grid" />
-      {heartIconDiaplay}
+      {heartIconDiaplay()}
       {cartIconDisplay}
     </div>
   );
