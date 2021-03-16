@@ -20,8 +20,3 @@ https://unsplash.com/
 # Icon library
 
 https://remixicon.com/
-
-# Libraries
-
-- React Router - https://reacttraining.com/react-router/web/guides/quick-start
-- PropTypes - https://reactjs.org/docs/typechecking-with-proptypes.html
