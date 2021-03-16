@@ -4,6 +4,10 @@ Gives you the ability to favorite or chose images, add them to your cart then pl
 
 ![alt text](https://github.com/Shimele/React-Pic-Commerce-Site/blob/main/pixel-lite.png)
 
+# Live Demo Link
+
+https://shimele.github.io/React-Pic-Commerce-Site/
+
 # Image attributions:
 
 https://picsum.photos/
