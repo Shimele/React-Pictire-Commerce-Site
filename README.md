@@ -2,7 +2,7 @@
 
 Gives you the ability to favorite or chose images, add them to your cart then place an order (work in progress)
 
-![alt text]()
+![alt text](https://github.com/Shimele/React-Pic-Commerce-Site/blob/main/pixel-lite.png)
 
 # Image attributions:
 
