@@ -6,15 +6,11 @@ function CartItem({ item }) {
   const [hovered, setHovered] = useState(false);
   const { removeFromCart } = useContext(Context);
 
-  const deleteIcon = hovered ? "ri-delete-bin-fill" : "ri-delete-bin-line";
-
   return (
     <div className="cart-item">
       <i
-        className={deleteIcon}
+        className="ri-delete-bin-line"
         onClick={() => removeFromCart(item.id)}
-        onMouseEnter={() => setHovered(true)}
-        onMouseEnter={() => setHovered(false)}
       ></i>
       <img src={item.url} width="130px" />
       <p>$5.99</p>
