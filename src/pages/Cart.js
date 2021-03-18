@@ -36,7 +36,11 @@ function Cart() {
         {totalCost}
       </p>
       <div className="order-button">
-        <button onClick={Order}>{orderText}</button>
+        {cartItems.length > 0 ? (
+          <button onClick={Order}>{orderText}</button>
+        ) : (
+          <h3>Your cart is empty</h3>
+        )}
       </div>
     </main>
   );
