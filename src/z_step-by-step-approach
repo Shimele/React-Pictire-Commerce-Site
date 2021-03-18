@@ -92,3 +92,34 @@ the toggleFavorite function!
 
 Filled heart icon:
 <i className="ri-heart-fill favorite"></i>
+
+ # step 10
+ Add propTypes to the Image component
+
+1. className should be a string
+2. img should be an object, specifically an object with `id`, `url`,
+ and `isFavorite` properties
+a. Hint: Specifying the properties of an object is called an
+object's "shape"
+
+ # step 11
+ Setup context to manage items in an array called `cartItems`. 
+ This will be an array of image objects.
+
+1. Add the `cartItems` state to context. (Array)
+2. Add function to add an image to the cart. (Takes the full 
+image object as parameter)
+3. Make it so clicking the plus icon on the image adds the item to 
+the cart. (Console.log the cart items array to see that it's working)
+
+# step 12
+Change the plus icon to a full shopping cart icon when an image is 
+already in the cart. This should display whether the image is 
+being hovered or not (like the favorite icon).
+
+Icon to use when item already in cart:
+<i className="ri-shopping-cart-fill cart"></i>
+
+# step 13
+Make it so clicking the little shopping cart icon on the image removes 
+the item from the cart
