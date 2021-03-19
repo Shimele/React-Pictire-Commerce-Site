@@ -6,7 +6,7 @@ Gives you the ability to favorite or chose images, add them to your cart then pl
 
 # Live Demo Link
 
-https://shimele.github.io/React-Pic-Commerce-Site/
+https://shimele.github.io/React-Picture-Commerce-Site/
 
 # Aknowledgement
 
